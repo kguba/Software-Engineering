@@ -7,9 +7,9 @@ Quellen: funktionale Anforderungen F010–F060, User Stories 1–3, UC `#01`–`
 |---|---|---|---|---|---|
 | B01 | Finder | Finderin | **Objekt** (Rolle) | Person mit eigener Identität; Telefonnummer, Freigabe | F010–F060; S1; UC `#02` |
 | B02 | Sucher | Verlierer, Besitzer, Eigentümer, Suchender | **Objekt** (Rolle) | Person, die den Gegenstand sucht/zurückerhält | F050, F060; S1/S2; UC `#01`, `#03` |
-| B03 | Operator | Polizist (Beruf) | **Objekt** (Rolle) | Nimmt entgegen, erfasst, gibt aus | S3; UC `#03` |
+| B03 | Operator | Polizist (Beruf) | **Objekt** (Rolle) | Nimmt entgegen, **erstellt Fundmeldungen**, verwahrt und gibt aus | S3; UC `#03`; F025 |
 | B04 | Gegenstand | Fundgegenstand, Schlüssel, gesuchte Sache, Suchgegenstand | **Objekt** | Zentraler fachlicher Kern; Schlüssel = Beispielinstanz | F010–F060; S1–S3; UC `#01`–`#03` |
-| B05 | Fundmeldung | Inserat, Fundanzeige, Eintrag, Fund | **Objekt** | Veröffentlichte Meldung mit Bezug zu Finder und Gegenstand | F020–F050; S2/S3; UC `#01`/`#02` |
+| B05 | Fundmeldung | Inserat, Fundanzeige, Eintrag, Fund | **Objekt** | Veröffentlichte Meldung; **Ersteller kann Finder oder Operator** sein; Bezug zu Gegenstand (und ggf. Finder) | F010, F020, F025; S1–S3; UC `#02`/`#03` |
 | B06 | Foto | Bild | **Attribut** von Fundmeldung *(optional eigenes Objekt bei mehreren Fotos)* | Gehört zur Meldung; S3 nennt mehrere Fotos | F020; S1; S3 |
 | B07 | Beschreibung | Inseratdetails | **Attribut** von Fundmeldung / Gegenstand | Textuelle Beschreibung, keine eigene Identität | F010; S1/S3; UC `#02` |
 | B08 | Fundort | – | **Attribut** von Fundmeldung | Wo gefunden | F010; S1 |
@@ -39,10 +39,10 @@ Quellen: funktionale Anforderungen F010–F060, User Stories 1–3, UC `#01`–`
 
 ## Hinweis fürs Objektdiagramm
 
-Mindestens vier Objekte mit konkreten Werten wählen, z. B. aus dem Zeitpunkt „Marianne hat gemeldet und bei Pasing abgegeben“:
+Mindestens vier Objekte mit konkreten Werten wählen. Zwei sinnvolle Zeitpunkte:
 
-- `marianne:Finder`
-- `schluessel-42:Gegenstand`
-- `meldung-17:Fundmeldung`
-- `pasing:Dienststelle`
-- optional `abgabe-9:Abgabe`
+**A – Finder meldet selbst:** Marianne hat gemeldet und bei Pasing abgegeben  
+- `marianne:Finder` · `schluessel-42:Gegenstand` · `meldung-17:Fundmeldung` · `pasing:Dienststelle`
+
+**B – Operator erstellt die Fundmeldung:** Franz hat den Schlüssel an der Dienststelle erfasst  
+- `franz:Operator` · `dame:Finder` · `schluessel-42:Gegenstand` · `meldung-18:Fundmeldung` (Ersteller = Operator) · `innenstadt:Dienststelle`

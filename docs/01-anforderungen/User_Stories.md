@@ -30,4 +30,4 @@ Eines Nachmittags kommt eine 35-jährige Dame zur Polizeidienststelle und berich
 
 Nachdem die Dame das Formular ausgefüllt hat, fotografiert Franz es und lädt das Bild in die App hoch. Anschließend macht er drei Fotos des Schlüssels und lädt diese ebenfalls hoch. Ergänzend fügt er eine kurze Beschreibung des Gegenstands hinzu. Das Programm erkennt das hochgeladene Formular automatisch, extrahiert die relevanten Informationen und übernimmt diese direkt in die entsprechenden Felder der App.
 
-Anschließend wird die Fundanzeige veröffentlicht. Franz verpackt den Schlüssel, versieht ihn mit einer entsprechenden Kennzeichnung und bewahrt ihn in der Asservatenkammer auf, damit der rechtmäßige Eigentümer ihn später abholen kann.
+Franz erstellt damit selbst die Fundmeldung und veröffentlicht sie im System – nicht nur der Finder in der App, sondern auch der Operator an der Dienststelle kann Fundmeldungen anlegen. Anschließend verpackt er den Schlüssel, versieht ihn mit einer entsprechenden Kennzeichnung und bewahrt ihn in der Asservatenkammer auf, damit der rechtmäßige Eigentümer ihn später abholen kann.

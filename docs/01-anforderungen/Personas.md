@@ -41,8 +41,8 @@
 | **Familienstand** | Vermutlich verheiratet, 2 Kinder |
 | **Wohnort** | München, Schwabing, in einer 4-Zimmer-Wohnung |
 | **Hobbys** | Fußball, Biersommelier |
-| **Hintergrund** | 48-jähriger Polizist in München. Nutzt sein Smartphone, um Informationen zu suchen und alltägliche Probleme schnell zu lösen. Arbeitet an der Rezeption im Polizeikommissariat in der Innenstadt. |
+| **Hintergrund** | 48-jähriger Polizist in München. Nutzt sein Smartphone, um Informationen zu suchen und alltägliche Probleme schnell zu lösen. Arbeitet an der Rezeption im Polizeikommissariat in der Innenstadt und erfasst Fundgegenstände digital als Fundmeldung. |
 | **Motivation** | Verbrecher jagen, für Gerechtigkeit sorgen, den Bürgern Münchens helfen. |
-| **Ziele** | Den Bürgern Münchens helfen. |
+| **Ziele** | Fundgegenstände schnell entgegennehmen, als Fundmeldung im System veröffentlichen und an den rechtmäßigen Besitzer zurückgeben. |
 | **Zitat** | „Wenn jemand etwas verliert, helfe ich dabei, dass der verlorene Gegenstand so schnell wie möglich zu seinem rechtmäßigen Besitzer zurückgeht.“ |
-| **Qualitätserwartungen** | Einfache Bedienung, schnelle Rückmeldungen, aktuelle Informationen, zuverlässige Vermittlung zwischen Finder und Verlierer sowie ein sicherer und transparenter Prozess. |
+| **Qualitätserwartungen** | Einfache Bedienung an der Rezeption, schnelles Erstellen und Veröffentlichen von Fundmeldungen aus Formular und Fotos, aktuelle Informationen sowie ein sicherer und transparenter Prozess. |
