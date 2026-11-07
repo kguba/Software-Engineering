@@ -6,9 +6,9 @@ Marianne ist 35 Jahre alt und arbeitet als Marketing-Managerin. Sie ist sehr dig
 
 Auf ihrem täglichen Arbeitsweg in der S-Bahn-Linie S3 Richtung Pasing entdeckt sie einen verlassenen Schlüssel auf einem Sitz. Sie steckt ihn ein und googelt noch während der Fahrt, wo sie ihn am besten abgeben kann. Sofort wird ihr die App „Found“ der Stadt München empfohlen. Nur zwei Klicks später hat sie die App installiert.
 
-Sie macht direkt ein Foto des Schlüssels, lädt es hoch und ergänzt eine kurze Beschreibung mit Fundort und Fundzeit. Marianne ist begeistert, wie unkompliziert das funktioniert: Als Finderin kann sie die App völlig anonym nutzen – lediglich die Angabe ihrer Telefonnummer ist für eventuelle Rückfragen erforderlich.
+Zuerst registriert sie sich mit ihrer Telefonnummer und bestätigt einen Verifizierungscode. Anschließend macht sie ein Foto des Schlüssels, lädt es hoch und ergänzt eine kurze Beschreibung mit Fundort und Fundzeit. Marianne ist begeistert, wie unkompliziert das funktioniert: Als Finderin reicht die verifizierte Telefonnummer; weitere personenbezogene Pflichtangaben sind nicht nötig.
 
-Die App fragt sie außerdem, ob sie vom Verlierer persönlich kontaktiert werden möchte. Marianne lehnt dies ab, da sie ungestört ihren Arbeitstag fortsetzen möchte. Als Abgabeort schlägt die App eine nahegelegene Dienststelle vor: Die Polizeistation in Pasing liegt ohnehin auf ihrem Weg, weshalb sie den Schlüssel dort direkt vorbeibringt.
+Die Kontaktaufnahme durch den Verlierer ist optional: Die App fragt sie, ob der Verlierer sie persönlich kontaktieren darf. Marianne lehnt dies ab, da sie ungestört ihren Arbeitstag fortsetzen möchte. Ohne Freigabe bleibt der Weg über die Dienststelle. Als Abgabeort schlägt die App eine nahegelegene Dienststelle vor: Die Polizeistation in Pasing liegt ohnehin auf ihrem Weg, weshalb sie den Schlüssel dort direkt vorbeibringt.
 
 Nachdem der Schlüssel später erfolgreich übergeben wurde, erhält Marianne als Dankeschön für ihre Mithilfe einen Gutscheincoupon eines App-Partners.
 
@@ -18,7 +18,7 @@ Steffen ist 20 Jahre alt und studiert an der Hochschule in Pasing. Als er an der
 
 Noch an der Hochschule beginnt er panisch zu googeln, was man in einer solchen Situation tun sollte. Dabei stößt er auf den Hinweis, die App „Found“ der Stadt München herunterzuladen, um Verlustmeldungen aufzugeben und Inserate des Fundbüros einzusehen. Das macht er direkt vor Ort.
 
-Steffen registriert sich mit seinem Ausweis und prüft, ob bereits ein passender Fund gemeldet wurde. Tatsächlich! Vor erst zehn Minuten wurde ein Inserat veröffentlicht, das genau auf seinen Schlüssel passt. Er kontaktiert umgehend das zentrale Fundbüro über die App.
+Steffen registriert sich mit seiner Telefonnummer und einem Verifizierungscode und prüft, ob bereits ein passender Fund gemeldet wurde. Tatsächlich! Vor erst zehn Minuten wurde ein Inserat veröffentlicht, das genau auf seinen Schlüssel passt. Da die Finderin keine direkte Kontaktfreigabe erteilt hat, kontaktiert er optional nicht die Finderin selbst, sondern das zentrale Fundbüro über die App.
 
 Schon kurze Zeit später erhält er die Zusage: Er kann sich seinen Schlüssel bei der Polizeistation in Pasing ansehen. Gleich nach dem Ende seiner Vorlesung geht Steffen direkt zur Polizeidienststelle, identifiziert seinen Schlüssel und kann ihn nach der Angabe seiner Daten überglücklich wieder mitnehmen.
 
