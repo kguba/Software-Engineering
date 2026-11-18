@@ -28,21 +28,3 @@ Quellen: funktionale Anforderungen F010–F060, User Stories 1–3, UC `#01`–`
 | B21 | Asservatenkammer | – | **Attribut** / Teil von Dienststelle | Aufbewahrungsort, oft kein eigenes Kernobjekt | S3 |
 | B22 | Profil | – | **Attribut** von Finder / Sucher | Stammdaten nach Registrierung | UC Beteiligte Systeme |
 
-## Bewusst weggelassen
-
-| Kategorie | Beispiele | Grund |
-|---|---|---|
-| Technik / UI | App, System, Found, Fenster, Button, Klick, Programm, Feld, Datenbank, Text, Meldung (UI) | Kein fachliches Kernobjekt |
-| Story-Kontext | Arbeitsweg, S-Bahn, Pasing, Sitz, Fahrt, Hosentasche, Panik, Vorlesung, Hochschule, Rezeption, … | Ausschmückung, nicht modellrelevant |
-| Eigennamen als Typ | Marianne, Steffen, Franz, Dame | **Instanzen** von Finder/Sucher/Operator, keine eigenen Begriffstypen |
-| Redundant / Feature-Label | Incentive, Benachrichtigung (Spalte), Benachrichtigungsdienst, Story, Post, E-Mail, Antwort, Zusage | Durch obige Begriffe abgedeckt oder rein technisch/kommunikativ |
-
-## Hinweis fürs Objektdiagramm
-
-Mindestens vier Objekte mit konkreten Werten wählen. Zwei sinnvolle Zeitpunkte:
-
-**A – Finder meldet selbst:** Marianne hat gemeldet und bei Pasing abgegeben  
-- `marianne:Finder` · `schluessel-42:Gegenstand` · `meldung-17:Fundmeldung` · `pasing:Dienststelle`
-
-**B – Operator erstellt die Fundmeldung:** Franz hat den Schlüssel an der Dienststelle erfasst  
-- `franz:Operator` · `dame:Finder` · `schluessel-42:Gegenstand` · `meldung-18:Fundmeldung` (Ersteller = Operator) · `innenstadt:Dienststelle`
