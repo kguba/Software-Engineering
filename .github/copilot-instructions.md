@@ -1,3 +1,3 @@
 # SWE1
 
-Beachte [AGENTS.md](../AGENTS.md) und die Freigaben zum aktuellen [Übungsblatt 3, WS 2026/27](../kurs/uebung-03.md). Die lokalen Übungshinweise verlinken das vollständige Übungsblatt.
+Beachte [AGENTS.md](../AGENTS.md) und die getrennten Freigaben für [Übung 3](../kurs/uebung-03.md) und [Übung 4, WS 2026/27](../kurs/uebung-04.md). Das erste Klassendiagramm entsteht ohne KI; Java erst nach dem eigenen Modellierungs-Commit. In Übung 4 gilt die aktualisierte iterative Durchführung in den Kurshinweisen: zuerst eine lauffähige Demo, dann Test, Review und Ergänzung. Zwei bis drei Klassen sind eine Empfehlung; alle Klassen im Bild dürfen beauftragt werden. Vereinfachungen brauchen eine ausdrückliche Auswahl. Ein separates Ist-Diagramm aus geprüftem Code ist erst später auf ausdrücklichen Auftrag erlaubt.

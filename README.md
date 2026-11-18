@@ -1,4 +1,14 @@
-# SWE1 – Übung 3, WS 2026/27
+# SWE1 – Übungen 3 und 4, WS 2026/27
+
+## Wegweiser
+
+- **Übung 3:** Die Schritte unten führen durch Anforderungen, Review, Substantivextraktion sowie Objekt- und Zustandsdiagramm. Es gelten die [KI-Freigaben für Übung 3](kurs/uebung-03.md).
+- **Git im Zweierteam:** Folgen Sie vor Übung 4 der [vollständigen Anleitung zur Git-Teamarbeit](kurs/git-teamarbeit.md): bisherige Ergebnisse sichern, eigenes Team-Repository einrichten und vor jeder Übung die Lehrvorlage übernehmen. Bereits bestehende Team-Repositories werden weiterverwendet.
+- **Übung 4:** [Aufgaben und aktualisierte KI-Grenzen](kurs/uebung-04.md): Klassendiagramm eigenständig erstellen und als `docs/04-klassendiagramm/klassendiagramm.png` committen. Mit [model-to-java](.agents/skills/model-to-java/SKILL.md) zunächst eine kleine lauffähige Java-Version nach `src/` übertragen, selbst testen und reviewen, danach gezielt vervollständigen. Zwei bis drei Klassen sind eine Empfehlung; auch alle Klassen im Bild sind möglich. Später kann auf eigenen Auftrag ein separates Ist-Diagramm aus dem geprüften Code entstehen.
+
+`docs/` und `src/` enthalten Ihre Ergebnisse. `kurs/`, `.agents/skills/`, `.github/` und `AGENTS.md` werden vom Kurs gepflegt. Die Ausgangsvisionen unter `docs/` sind einmaliges Startmaterial, keine regelmäßig zu ersetzenden Vorlagen.
+
+## Übung 3
 
 Sie überprüfen Ihre bisherigen Anforderungen und erstellen erste UML-Modelle. Arbeiten Sie im Zweierteam an Ihrer Fallstudie: **Fundbüro-Anwendung**, **Verleih-Plattform** oder **Repair-Café-Anwendung**. Ziel ist eine kleine, verständliche Lehranwendung; den [Lernrahmen und die KI-Freigaben](kurs/uebung-03.md) finden Sie in den Kurshinweisen.
 
@@ -12,7 +22,7 @@ Verwenden Sie wie im Übungsblatt **Copilot im Terminal Ihrer Entwicklungsumgebu
 
 - Öffnen Sie den Repository-Ordner und anschließend das integrierte Terminal Ihrer IDE.
 - Starten Sie die wie in Übung 1 eingerichtete Copilot CLI mit `copilot`. Beginnen Sie eine neue Sitzung und geben Sie den benötigten Skill-Befehl aus den folgenden Beispielen ein.
-- Benennen Sie nur die benötigten Dateien und einen kleinen Abschnitt. Ersetzen Sie die Platzhalter durch Ihre eigenen Pfade und Angaben.
+- Benennen Sie für ein Requirements-Review die benötigten Dateien oder einen Ordner wie `docs/`. Der Coach ermittelt darin die passenden Texte. Für die Substantivextraktion benennen Sie weiterhin konkrete Dateien oder Abschnitte.
 
 Wird ein Skill nicht erkannt, prüfen Sie die Einrichtung mit der Lehrperson.
 
@@ -24,19 +34,18 @@ Legen Sie dort Ihre selbst erarbeiteten Personas, Szenarien, User Stories und st
 
 ## 2. Anforderungen analysieren
 
-Notieren Sie zuerst selbst eine vermutete Unklarheit und Ihre bisherige Begründung. Starten Sie dann den [requirements-coach](.agents/skills/requirements-coach/SKILL.md) im **Challenge-Modus**, beispielsweise so:
+Starten Sie den [requirements-coach](.agents/skills/requirements-coach/SKILL.md) für eine Konsistenzprüfung im **Challenge-Modus**. Ein Ordner genügt; eine eigene Vorabvermutung oder eine einzeln abgetippte Dateiliste ist nicht erforderlich:
 
 ```text
 /requirements-coach
-Lesen Sie nur <Pfad zum Anforderungstext> und <benötigte Kontextdatei>.
-Prüfen Sie zunächst <ID oder Abschnitt>.
-Unsere eigene Unsicherheit: <Frage und bisherige Begründung>.
-Beginnen Sie mit einer Runde und warten Sie auf unsere Antworten.
+Prüfen Sie die Anforderungstexte in docs/ auf Konsistenz.
+Stellen Sie Fragen bei Unklarheiten und speichern Sie die Ergebnisse
+in docs/06_klarstellungen.md.
 ```
 
-Der Coach hinterfragt Verständlichkeit, Eindeutigkeit, Vollständigkeit und Überprüfbarkeit. Benennen Sie dafür die benötigte Persona und das Szenario als Kontext. Er stellt bevorzugt zwei, höchstens drei quellengestützte Fragen pro Runde. Beantworten Sie diese im Team und entscheiden Sie danach, ob Sie zu einem offenen Punkt eine weitere Runde benötigen. Beenden Sie das Review ausdrücklich, sobald Sie die ausgewählten Punkte besprochen haben. Fertige Formulierungen, Musterlösungen und Compare sind nicht freigegeben.
+Der Coach wählt aus dem freigegebenen Ordner relevante Anforderungen, Stories, Anwendungsfälle, Akzeptanzkriterien und benötigten Kontext aus. Er nennt den bearbeiteten Umfang und stellt zu wichtigen Befunden bevorzugt zwei, höchstens drei quellengestützte Fragen pro Runde. Auf Ihren Speicherauftrag legt er das Klarstellungsdokument bereits mit offenen Befunden an; die Antworten und Entscheidungen bleiben bei Ihnen. Eine vorhandene Datei wird unter Erhalt Ihrer bisherigen Antworten ergänzt. Ohne genannten Zielpfad ist bei einem Speicherauftrag `docs/02-review/06_klarstellungen.md` die Standardablage.
 
-Dokumentieren Sie mindestens drei Erkenntnisse unter [docs/02-review/](docs/02-review/). Unterscheiden Sie tatsächliche Unklarheiten, offene Fragen und mögliche Verbesserungen. Überarbeiten Sie Anforderungen oder Akzeptanzkriterien **nur, wenn dies notwendig ist**. Dokumentieren und begründen Sie Ihre Klarstellungen nachvollziehbar und prüfen Sie deren Passung zu Ihren User Stories und Anwendungsfällen. Prüfen Sie KI-Hinweise an Ihren Quellen und begründen Sie auch abgelehnte Hinweise; KI-Kritik allein ist kein Änderungsgrund. Erklären Sie sich anschließend gegenseitig ohne KI Ihre Entscheidung und die Überprüfbarkeit der Anforderungen.
+Beantworten Sie die Fragen im Team und halten Sie mindestens drei Erkenntnisse und Ihre Entscheidungen im Klarstellungsdokument fest. Unterscheiden Sie tatsächliche Unklarheiten, offene Fragen und mögliche Verbesserungen. Überarbeiten Sie Anforderungen oder Akzeptanzkriterien **nur, wenn dies notwendig ist**, und begründen Sie die Änderungen selbst. Prüfen Sie auch KI-Hinweise an Ihren Quellen; KI-Kritik allein ist kein Änderungsgrund. Erklären Sie sich anschließend gegenseitig ohne KI Ihre Entscheidung und die Überprüfbarkeit der Anforderungen. Beenden Sie das Review ausdrücklich, sobald Sie die ausgewählten Punkte besprochen haben. Fertige Formulierungen, Musterlösungen und Compare bleiben ausgeschlossen; der Coach ändert Ihre Anforderungsdateien nicht.
 
 ## 3. Substantive extrahieren
 
@@ -66,4 +75,4 @@ Erklären Sie sich gegenseitig anhand Ihrer Quellen, welche Anforderung und welc
 
 **Word und Miro bleiben erlaubt.** Für die KI-Analyse müssen die ausgewählten Texte als lesbarer Text vorliegen, bevorzugt als Markdown. Screenshots oder reine Bild-PDFs ersetzen diesen Text nicht. Diagramme können Sie als PDF oder Bild im Modellordner ablegen.
 
-Sie pflegen `docs/`; der Kurs pflegt Regeln, Skills und Übungshinweise. **Vorerst werden weder Git-Commit noch Push verlangt.**
+Sie pflegen `docs/`; der Kurs pflegt Regeln, Skills und Übungshinweise. Beim Einstieg in Übung 3 waren Commit und Push noch nicht verlangt. **Vor Übung 4 sichern Sie diese Ergebnisse mit der [Git-Teamarbeit](kurs/git-teamarbeit.md).**

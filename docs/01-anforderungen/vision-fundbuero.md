@@ -4,7 +4,7 @@
 
 **Status:** Ausgangsvision für die eigenständige Analyse
 
-**Grundlage:** [SWE1, Übungsblatt 1, WS 2026/27](https://docs.google.com/document/d/1V2lj95b9TnkPMhoc4Nfx_8ORh-oiVSgnYf1aiV6sDL4/edit), Abschnitt „Themenbereiche für die Fallstudie“.
+**Lernrahmen:** [Einfache, verständliche und iterative Entwicklung einer Lernanwendung](../../kurs/uebung-03.md#lernrahmen).
 
 ## Ausgangssituation
 
